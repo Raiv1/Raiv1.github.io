@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+<title>Form</title>
+<link rel="text/stylesheet" href="style.css">
+<style>
+form{
+margin:0 auto;
+background:orange;
+color:black;
+width:450px;
+border:2px solid black;
+padding:10px;
+resize:none:
+}
+
+input[type="submit"]{
+background-color:;
+}
+
+p{
+font-variant:small-caps;
+font-size:36px;
+text-decoration:overline;
+text-align:center;
+color:#333333;
+}
+
+span{
+font-variant:small-caps;
+color:#660000;
+float:right;
+}
+
+</style>
+
+
+<p>Fill the Form Correctly</p>
+</head>
+<body>
+
+<form>
+<table width="200">
+  <tr>
+    <td>User Name</td>
+    <td><input type="text" name="name"/></td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td><input type="password" name="password"/></td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td><input type="radio" name="gender" value="male"/>Male
+	<input type="radio" name="gender" value="female"/>Female
+	</td>
+  </tr>
+  <tr>
+    <td>Skills</td>
+    <td><input type="checkbox" name="skill" value="PHP"/>PHP
+	<input type="checkbox" name="skill" value="HTML"/>HTML
+	<input type="checkbox" name="skill" value="CSS"/>CSS
+	</td>
+  </tr>
+  <tr>
+    <td>Select your Country</td>
+    <td><select >
+	<option value="Ind">INDIA</option>
+	<option value="Pak">PAKISTAN</option>
+	<option value="USA">UNITED STATES OF AMERICA</option>
+	<option value="UK">UNITED KINGDOM</option>
+	<option value="Braz">BRAIL</option>
+	<option value="Cn">CANADA</option>
+	
+	</select>
+	</td>
+  </tr>
+  <tr>
+    <td>Comments</td>
+    <td class="txtara"><textarea rows="10"  cols="40"/></textarea></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="submit" name="submit" value="Click to Submit"/></td>
+  </tr>
+ </table>
+</form>
+<span> created by  Mr. Ravi</span>
+</body>
+</html>
